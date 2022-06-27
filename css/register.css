@@ -1,0 +1,150 @@
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+header img {
+    margin-top: 18px;
+}
+
+.registerarea {
+    height: 522px;
+    margin-top: 22px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #ececec;
+}
+
+.registerarea .login {
+    float: right;
+    font-size: 14px;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-top: 21px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li span .error {
+    color: #c81523;
+}
+
+.reg_form ul li span .error_icon,
+.reg_form ul li span .success_icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+}
+
+.reg_form ul li span .success {
+    color: #40b83f;
+}
+
+.reg_form ul li span .success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.reg_form ul .safe {
+    margin-top: 12px;
+    padding-left: 165px;
+    color: #d3d3d3;
+}
+
+.reg_form ul .safe em {
+    margin: 0 -1px;
+    padding: 0 12px;
+    color: white;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.reg_form ul .agree {
+    padding-left: 95px;
+}
+
+.reg_form ul .agree input {
+    vertical-align: middle;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+    position: relative;
+    width: 13px;
+    height: 13px;
+    font-size: 10px;
+    margin-right: 8px;
+}
+
+
+/* //选中后修改  */
+
+input[type=checkbox]::after {
+    position: absolute;
+    top: 0;
+    /* //修改默认背景色 */
+    background-color: #f2f2f2;
+    border: 1px solid #aaaaaa;
+    /* //修改默认对勾颜色 */
+    color: #1ba1e6;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    visibility: visible;
+    text-align: center;
+    content: ' ';
+}
+
+input[type=checkbox]:checked::after {
+    content: '√';
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.reg_form ul .agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    color: white;
+    margin: 30px 0 0 100px;
+    cursor: pointer;
+}

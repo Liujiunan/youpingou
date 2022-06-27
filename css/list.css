@@ -1,0 +1,90 @@
+.nav {
+    overflow: hidden;
+}
+
+
+/* sk秒杀图标 */
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    border-left: 1px solid #b1191a;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 13px;
+}
+
+
+/* sk秒杀列表模块 */
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    height: 47px;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_icon {
+    float: left;
+}
+
+.sk_icon ul li {
+    float: left;
+}
+
+.sk_icon ul li a {
+    display: block;
+    height: 47px;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_icon ul li:last-child a::after {
+    float: right;
+    font-family: 'icomoon';
+    content: '\e91e';
+    margin: 1px;
+}
+
+
+/* sk_container列表页主体模块 */
+
+.sk_hd {
+    height: 120px;
+}
+
+.sk_bd {
+    margin: 12px 0 282px;
+    overflow: hidden;
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-top: 12px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
